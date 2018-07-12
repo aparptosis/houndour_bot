@@ -4,6 +4,7 @@
 # https://www.twilio.com/blog/2017/02/an-easy-way-to-read-and-write-to-a-google-spreadsheet-in-python.html
 
 import discord
+print(discord.__version__)
 
 TOKEN = 'NDY2MTExMDExNTY5Nzk1MDgy.DiXTRA.E2yeF9I-Bx2DcHzUgxqWTbcOM_o'
 
