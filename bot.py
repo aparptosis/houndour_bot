@@ -5,8 +5,6 @@
 
 import discord
 
-TOKEN = 'NDY2MTExMDExNTY5Nzk1MDgy.DiXTRA.E2yeF9I-Bx2DcHzUgxqWTbcOM_o'
-
 client = discord.Client()
 
 def roles_list(author):
@@ -121,8 +119,6 @@ async def on_message(message):
     elif hellion_role in message.author.roles and message.channel.name != "nsfw":
 
         #limbo - mentioning a mod's name or @ing a mod in limbo
-        mod_names = ["vidya", "loki", "atriel", "atty"]
-        mod_userids = ["magnetowasright", "mystery vidya", "Atriel"]
 
         if message.channel.name == "limbo":
             for i in range(0, len(mod_names)):
